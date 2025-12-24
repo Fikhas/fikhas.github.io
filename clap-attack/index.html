@@ -17,24 +17,23 @@
         font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
           Roboto, "Helvetica Neue", Arial;
       }
-      html,
-      body {
-        height: 100%;
+      html {
+        min-height: 100%;
+        background: linear-gradient(180deg, #071027 0%, #071a2e 60%);
       }
       body {
         margin: 0;
-        background: linear-gradient(180deg, #071027 0%, #071a2e 60%);
+        min-height: 100vh;
         color: #e6eef6;
         -webkit-font-smoothing: antialiased;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         padding: 40px 16px;
         box-sizing: border-box;
+        background: transparent; /* penting */
       }
       .wrap {
         width: 100%;
         max-width: var(--maxw);
+        margin: 0 auto;
       }
       header {
         display: flex;
@@ -141,7 +140,7 @@
       <header>
         <div>
           <h1>Privacy Policy — Clap Attack</h1>
-          <p class="lead">Updated: <strong>3 December 2025</strong></p>
+          <p class="lead">Updated: <strong>24 December 2025</strong></p>
           <div class="meta">
             <span class="chip">Game: Clap Attack</span>
             <span class="chip">Created by: Fikhas</span>
@@ -161,20 +160,67 @@
 
         <h2>Information We Collect</h2>
         <p>
-          We do not collect any data information from users and we do not store
-          user data at all.
+          Clap Attack does not collect or store any personal data directly from
+          users.
+          <br />
+          <br />
+          However, the game uses third-party services such as Google AdMob to
+          display advertisements. These services may collect certain information
+          automatically, including but not limited to:
         </p>
+        <ul>
+          <li>Advertising ID</li>
+          <li>Device information (such as device model, operating system)</li>
+          <li>IP address (used to estimate general location)</li>
+          <li>Ad interaction data</li>
+        </ul>
 
         <h2>How We Use Your Information</h2>
         <p>
-          Since we do not collect any information from users, we also do not do
-          anything with it.
+          We do not personally access, store, or process user data.
+          <br />
+          <br />
+          Any data collected is used solely by third-party services to:
+        </p>
+        <ul>
+          <li>Display relevant advertisements</li>
+          <li>Measure ad performance</li>
+          <li>Improve service quality</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <p>Clap Attack uses the following third-party service:</p>
+        <ul>
+          <li>Google AdMob</li>
+        </ul>
+        <p>
+          Google AdMob operates under its own Privacy Policy, which can be found
+          at:
+          <a href="https://policies.google.com/privacy"
+            >https://policies.google.com/privacy</a
+          >
+        </p>
+
+        <h2>Children's Privacy</h2>
+        <p>
+          This game does not knowingly collect personal information from
+          children.
+          <br />
+          If you believe that a child has provided personal data through
+          third-party services, please contact us so we can take appropriate
+          action.
+        </p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>
+          This policy may be updated from time to time. Any changes will be
+          posted on this page.
         </p>
 
         <h2>Contact Details</h2>
         <p>
-          For questions and complaints regarding the game, you can contact us
-          via the following contacts:
+          If you have any questions or concerns about this Privacy Policy,
+          please contact us:
         </p>
         <ul>
           <li>Email: fikhas.mail@gmail.com</li>
